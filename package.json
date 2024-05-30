@@ -1,5 +1,5 @@
 {
-  "homepage": "https://bharathnallasamy.github.io/react_BMI_calculator",
+  "homepage": "https://bharathnallasamy.github.io/bmicalculator",
   "name": "bmicalculator",
   "private": true,
   "version": "0.0.0",
@@ -9,10 +9,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "git": "git add . && git commit -m 'update' && git push",
-    "predeploy": "ng build --configuration production --base-href https://bharathnallasamy.github.io/react_BMI_calculator/",
-    "deploy": "gh-pages -d dist/bmicalculator",
-    "upload": "ng build --configuration production --base-href ./"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
