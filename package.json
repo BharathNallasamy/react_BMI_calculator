@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "git": "git add . && git commit -m 'update' && git push",
     "predeploy": "ng build --configuration production --base-href https://bharathnallasamy.github.io/react_BMI_calculator/",
-    "deploy": "gh-pages -d dist/offer-value-proposition",
+    "deploy": "gh-pages -d dist/bmicalculator",
     "upload": "ng build --configuration production --base-href ./"
   },
   "dependencies": {
